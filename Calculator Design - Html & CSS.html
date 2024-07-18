@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Calculator</title>
+	<style type="text/css">
+		
+		#background
+		{
+			background-color: #393e41;
+		}
+
+		#Calculator
+		{
+			background-color: white ;
+			margin: auto;
+			width: 450px;
+			height: 700px;
+			margin-top: 50px;
+			border-radius: 50px;
+			
+		}
+
+		#Screen
+		{
+			background-color: #02040f;
+			margin:auto;
+			width: 420px;
+			height: 150px;
+			font-size: 30px;
+			text-align: center;
+			border: 15px solid  white;
+			color:  #ffffff;
+			font-family: monospace;
+			border-radius: 50px;
+		}
+
+		.n 
+		{
+			background-color: #02040f;
+			margin:auto;
+			width: 50px;
+			padding: 15px;
+			text-align: center;
+			border: 15px solid  white;
+			color:  #ffffff;
+			font-family: monospace;
+			float: left;
+			font-size: 48px;
+			border-radius: 50%;
+			
+		}
+
+		#color
+		{
+			background-color: #fec601;
+		}
+
+		#color:hover
+		{
+			background-color: #f8f32b;
+		}
+
+		.n:hover
+		{
+			background-color: #dee2e6;
+			color: black;
+		}
+
+		.line
+		{
+			margin: auto;
+			margin-top: 20px;
+			margin-bottom: 20px;
+			height: 10px;
+			background-color: #6c757d;
+			width: 350px;
+			border-radius: 50px;
+		}
+	</style>
+</head>
+<body id="background">
+
+	<div id="Calculator">
+
+		<div id="Screen"></div>
+
+		<div class="line"></div>
+		
+		<div>
+			<h1 class="n">7</h1>
+			<h1 class="n">8</h1>
+			<h1 class="n">9</h1>
+			<h1 class="n" id="color">x</h1>
+		</div>
+
+		<div>
+			<h1 class="n">4</h1>
+			<h1 class="n">5</h1>
+			<h1 class="n">6</h1>
+			<h1 class="n" id="color">+</h1>
+		</div>
+
+		<div>
+			<h1 class="n">1</h1>
+			<h1 class="n">2</h1>
+			<h1 class="n">3</h1>
+			<h1 class="n" id="color">-</h1>
+		</div>
+
+		<div>
+			<h1 class="n" id="color">C</h1>
+			<h1 class="n">0</h1>
+			<h1 class="n" id="color">=</h1>
+			<h1 class="n" id="color">/</h1>
+		</div>
+	</div>
+</body>
+</html>
