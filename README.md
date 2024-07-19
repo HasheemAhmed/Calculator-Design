@@ -20,15 +20,8 @@ Welcome to the Calculator Design repository! This project showcases a simple and
 
 ### Installation
 
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/yourusername/calculator-design.git
     ```
-2. Navigate to the project directory:
-    ```bash
-    cd calculator-design
-    ```
-3. Open `index.html` in your web browser to view the calculator.
+1. Open `login.html` in your web browser to view the calculator.
 
 ## License 📜
 
@@ -40,6 +33,6 @@ Contributions are welcome! Feel free to open an issue or submit a pull request.
 
 ## Contact 📧
 
-If you have any questions or suggestions, feel free to reach out at [hasheemasif@gmail.com](mailto:hasheemasif@gmail.com).
+If you have any questions or suggestions, feel free to reach out at [hasheemasif@gmail.com].
 
 ---
