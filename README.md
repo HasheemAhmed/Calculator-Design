@@ -1,5 +1,3 @@
-
-
 ---
 
 # Calculator Design 🧮✨
@@ -20,7 +18,6 @@ Welcome to the Calculator Design repository! This project showcases a simple and
 
 ### Installation
 
-    ```
 1. Open `login.html` in your web browser to view the calculator.
 
 ## License 📜
